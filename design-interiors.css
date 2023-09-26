@@ -27,7 +27,7 @@ body {
 
 #logo-principal {
     position: absolute;
-    right: 82px;
+    right: 122px;
     bottom: 50px;
     width: 250px;
 }
@@ -166,4 +166,156 @@ form button {
     margin-right: 26px;
 }
 
+@media (max-width: 769px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        right: 0;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .menu a {
+        font-size: 10px;
+        padding-right: 10px;
+
+    }
+
+    .menu button {
+        border: 1px solid black;
+        font-size: 10px;
+        padding: 4px 7px;
+    }
+
+    #text-logo {
+        position: absolute;
+        width: 20%;
+        left: 14px;
+        top: 20px;
+        margin: inherit;
+    }
+
+    #logo-principal {
+        width: 136px;
+        right: 79px;
+        bottom: 120px;
+    
+    }
+
+    .articles {
+        padding-bottom: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card img {
+        height: 90px;
+    }
+
+    .card p {
+        margin: 0;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .about div {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    .extra {
+        display: none;
+    }
+
+    .original {
+        font-size: 12px;
+    }
+
+    .footer {
+        margin-top: 45px;
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-media {
+        margin-left: inherit;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .social-media img {
+        border-right: 3px solid transparent;
+        width: 20px;
+    }
+
+    .link-footer {    
+        text-align: center;
+    }
+
+    .link-footer a {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+    #sub {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        margin-right: 0;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .about img {
+        height: 410px;
+        object-fit: cover;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    form input {
+        display: flex;
+        margin: 0 auto;
+        padding: 8px 18px 8px 18px;
+        background-color: #FEF0EA;
+        border: 2px solid white;
+    }
+
+    form button {
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+        border: 1px solid black;
+        background-color: transparent;
+        padding: 7px 22px;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    .image-start {
+        height: 620px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 7px) {
+    .about img {
+        height: 263px;
+        object-fit: cover;
+    }
+
+
+}
 
